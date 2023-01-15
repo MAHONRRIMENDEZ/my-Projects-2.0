@@ -24,7 +24,7 @@ class Program
             }
             else if (magicNumber < userguess)
             {
-                Console.Write("the number is lower");
+                Console.WriteLine("the number is lower");
             }
 
             else
