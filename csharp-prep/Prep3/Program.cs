@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep3 World!");
+        Console.Write("What will be yout magic number? ");
+        int UserNumber = Console.ReadLine();
+        int.Parse(UserNumber = );
     }
 }
