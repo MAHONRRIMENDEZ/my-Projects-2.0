@@ -9,29 +9,30 @@ class Program
         //int magicNumber = int.Parse(UserNumber);
     
 
-    Random randomNumber = new Random ();
-    int magicNumber = randomNumber.Next(1, 101);
+        Random randomNumber = new Random ();
+        int magicNumber = randomNumber.Next(1, 101);
 
-    int Userguess = -1;
-    while (Userguess != magicNumber)
-    {
-        Console.Write("What do you think is the number? ");
-        Userguess = int.Parse(Console.ReadLine());
+        int userguess = -1;
+        while (userguess != magicNumber)
+        {
+            Console.Write("What do you think is the number? ");
+            userguess = int.Parse(Console.ReadLine());
 
-        if (magicNumber > Userguess)
-        {
-            Console.WriteLine("the number is Higher");
-        }
-        else if (magicNumber < Userguess)
-        {
-            Console.Write("the number is lower");
-        }
+            if (magicNumber > userguess)
+            {
+                Console.WriteLine("the number is Higher");
+            }
+            else if (magicNumber < userguess)
+            {
+                Console.Write("the number is lower");
+            }
 
-        else
-        {
-            Console.WriteLine("you got it!");
+            else
+            {
+                Console.WriteLine("you got it!");
+            }
+
         }
-    }
     }
 
 }
