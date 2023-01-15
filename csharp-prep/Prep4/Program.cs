@@ -16,6 +16,12 @@ class Program
             {
                 numbers.Add(UserNumber);
             }
+//            An attemp to have only numbers in the code
+//            else if((e.KeyChart <= 47) || (e.KeyChart >= 58 && e.KeyChart < = 255))
+//            {
+//                Console.WriteLine("that is not a number ");
+        
+//            }
         }
         int sum = 0;
         foreach (int number in numbers)
@@ -30,16 +36,16 @@ class Program
 
 
         /////////////////////////////////////////
-        int max = numbers[0];
+        int maxnumber = numbers[0];
         foreach (int number in numbers)
         {
-            if (number > max)
+            if (number > maxnumber)
             {
-                max = number;
+                maxnumber = number;
             }
         }
 
-        Console.WriteLine($"The max is: {max}");
+        Console.WriteLine($"The max is: {maxnumber}");
 
     }
 }
