@@ -6,7 +6,7 @@ class Program
     {
         List<int> numbers = new List<int>();
         int UserNumber = -1;    
-        while(UserNumber ! = 0)
+        while(UserNumber != 0)
         {
             Console.Write("Please enter a number (0 to close the list): ");
             String userResponse = Console.ReadLine();
@@ -30,7 +30,7 @@ class Program
 
 
         /////////////////////////////////////////
-        int max = numberss[0];
+        int max = numbers[0];
         foreach (int number in numbers)
         {
             if (number > max)
