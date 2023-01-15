@@ -22,7 +22,7 @@ class Program
         {
             Console.WriteLine("the number is Higher");
         }
-        else if (magicNumber < Userguess);
+        else if (magicNumber < Userguess)
         {
             Console.Write("the number is lower");
         }
