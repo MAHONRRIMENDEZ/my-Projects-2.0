@@ -4,7 +4,8 @@ public class Resume
 {
     public string _name;
 
-    // Make sure to initialize your list to a new List before you use it.
+//I had a hard time to complete the Resume part of the learning Activitie 
+//so I needed to review the solution sample to complete this part
     public List<job> _jobs = new List<job>();
 
     public void Display()
@@ -12,10 +13,10 @@ public class Resume
         Console.WriteLine($"Name: {_name}");
         Console.WriteLine("Jobs:");
 
-        // Notice the use of the custom data type "Job" in this loop
+
         foreach (job job in _jobs)
         {
-            // This calls the Display method on each job
+
             job.Display();
         }
     }
